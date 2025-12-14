@@ -8,7 +8,7 @@
 #include <unistd.h>
 
 // Utils
-#include "utils.hpp"
+#include "../include/utils.hpp"
 
 // ------ Main Code ------ //
 

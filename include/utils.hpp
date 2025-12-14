@@ -1,5 +1,4 @@
-#ifndef UTILS_HPP
-#define UTILS_HPP
+#pragma once
 
 // General
 #include <iostream>
@@ -41,4 +40,3 @@ namespace utils {
   }
 
 }
-#endif
