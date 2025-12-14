@@ -1,7 +1,14 @@
 #ifndef UTILS_HPP
 #define UTILS_HPP
 
+// General
 #include <iostream>
+#include <vector>
+#include <string>
+
+// Rng
+#include <cstdlib>
+#include <ctime>
 
 namespace utils {
   // Better print
