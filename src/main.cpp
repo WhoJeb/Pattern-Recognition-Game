@@ -59,6 +59,7 @@ const string indexer[] = {
 const unordered_map<string, string> System {
   {"F", "|"},
   {"G", "{"},
+  {"GG", "}"},
   {"H", ":"},
 };
 
@@ -68,6 +69,12 @@ void convert(vector<string>& v, string& s) {
     if (s.find("F") != string::npos) {
       s.erase(i, 1);
       v.push_back(System.at("F"));
+    }
+  }
+  for (int i = 0; i <= s.size(); i++) {
+    if (s.find("GG") != string::npos) {
+      s.erase(i, 1);
+      v.push_back(System.at("GG"));
     }
   }
   for (int i = 0; i <= s.size(); i++) {
